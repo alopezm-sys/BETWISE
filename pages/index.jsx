@@ -1,5 +1,5 @@
 import {useEffect,useMemo,useState} from 'react'
-import { americanToDecimal, impliedProbFromAmerican, clamp, usd } from './utils'
+import { americanToDecimal, impliedProbFromAmerican, clamp, usd } from '../lib/utils'
 
 const FEED_HTTP_URL = '/api/odds';
 const FEED_WS_URL = null;
